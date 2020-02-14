@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Groovin one page bootstrap template</title>
+    <title>IHDEA</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="" />
     <meta name="author" content="" />
@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="assets/css/slippry.css" />
     <link href="assets/css/style.css" rel="stylesheet" />
     <link rel="stylesheet" href="assets/color/default.css" />
+    <link rel="stylesheet" href="build/mediaelementplayer.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mediaelement@4.2.7/build/mediaelementplayer.min.css">
     <!-- =======================================================
     Theme Name: Groovin
     Theme URL: https://bootstrapmade.com/groovin-free-bootstrap-theme/
@@ -54,6 +56,7 @@
               <nav>
                 <ul class="nav navbar-nav navbar-right">
                   <li class="current"><a href="#intro">Inicio</a></li>
+                  <li><a href="#sermon">Mensaje</a></li>
                   <li><a href="#about">Quienes Somos</a></li>
                   <li><a href="#works">Ministerios</a></li>
                   <li><a href="#contact">Contact</a></li>
@@ -65,6 +68,7 @@
         </div>
       </div>
     </header>
+
     <!-- section intro -->
     <section id="intro">
       <ul id="slippry-slider">
@@ -90,13 +94,60 @@
       </ul>
     </section>
     <!-- end intro -->
+
+    <!--- sermon audio -->
+    <section id="sermon" class="section gray">
+      <div class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <div class="heading">
+              <h3>Edifíquese</h3>
+            </div>
+            <div class="sub-heading">
+              <p>
+              Es nuestro deseo que este mensaje le sea de mucha bendición y edificación para su vida.<br>
+              &mdash;
+              <span style="font-size: medium;"><em>Pastor Samuel Hernández</em></span>
+            </p>
+          </div>  
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12 text-center">
+            <h5><span class="uppercase"
+                >&ldquo;Mi iglesia es un grupo pequeño&rdquo;</span>
+              &mdash;
+              <span style="font-size: small;"><em>8 febrero 2020</em></span>
+            </h5>
+          </div>
+          <div class="col-12 text-center">
+            <div class="player text-center">
+              <audio id="player2" preload="none" controls
+                style="max-width: 100%"
+              >
+                <source
+                  src="http://ihdea.org/Media/cultos/2020/culto_02_09_2020/Mi Iglesia es un grupo Pequeno.mp3"
+                  type="audio/mp3"
+                />
+              </audio>
+            </div>
+          </div>
+        </div>
+      
+      </div>
+    </section>
+
+    <!-- end sermon audio -->
+
     <!-- Section about -->
     <section id="about" class="section">
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-md-offset-2">
             <div class="heading">
-              <h3><span>Quienes Somos Nosotros</span></h3>
+              <h3><span>Quienes Somos</span></h3>
             </div>
             <div class="sub-heading">
               <p>
@@ -109,59 +160,113 @@
           <div class="col-md-3">
             <div class="team-box">
               <img
-                src="assets/img/who/Romanos8.28.jpg"
+                src="assets/img/who/Romanos8-28.jpg"
                 alt=""
                 class="img-responsive"
               />
               <div class="roles">
-                <h5><strong>Crecer a la imagen de Cristo</strong></h5>
-                <p>
-                  Romanos 8:28-29
-                </p>
-                <ul class="social-profile">
-                  <li>
-                    <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="fa fa-dribbble fa-lg"></i></a>
-                  </li>
-                </ul>
+                <h5>
+                  <strong
+                    >Crecer a la<br />
+                    imagen de Cristo</strong
+                  >
+                </h5>
+                <p>Romanos 8:28-29<br />...</p>
+
+                <!-- Start Modal1 -->
+                <button class="modal-button btn btn-info" href="#myModal1">
+                  Lea mas...
+                </button>
+
+                <!-- Modal 1 Content-->
+                <div id="myModal1" class="modal">
+                  <!-- Modal content -->
+                  <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h3>Crecer a la Imagen de Cristo</h3>
+                    <p>Romanos 8:28-29 Reina Valera Contemporánea (RVC)/</p>
+                    <p></p>
+                    <p>
+                      28 Y sabemos que a los que aman a Dios, todas las cosas
+                      les ayudan a bien, esto es, a los que conforme a su
+                      propósito son llamados.
+                      <br />
+                      29 Porque a los que antes conoció, también los predestinó
+                      para que fuesen hechos conformes a la imagen de su Hijo,
+                      para que él sea el primogénito entre muchos hermanos.
+                    </p>
+                    <a
+                      href="https://www.biblegateway.com/passage/?search=Romans+8%3A28&version=RVC"
+                      target="_blank"
+                      >Leer mas...</a
+                    >
+                  </div>
+                </div>
+
+                <!-- End Modal1 -->
               </div>
             </div>
           </div>
+
           <div class="col-md-3">
             <div class="team-box">
               <img
-                src="assets/img/who/2Pedro3.18.jpg"
+                src="assets/img/who/2Pedro3-18.jpg"
                 alt=""
                 class="img-responsive"
               />
               <div class="roles">
-                <h5><strong>Obtener la Madurez espiritual</strong></h5>
-                <p>
-                  Efe 4:13, 2 Ped. 3:18
-                </p>
-                <ul class="social-profile">
-                  <li>
-                    <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="fa fa-dribbble fa-lg"></i></a>
-                  </li>
-                </ul>
+                <h5>
+                  <strong>Obtener la <br />Madurez espiritual</strong>
+                </h5>
+                <p>Efesios 4:13<br />2 Pedro 3:18</p>
+
+                <!-- Start Modal 2 -->
+                <button class="modal-button btn btn-info" href="#myModal2">
+                  Lea mas...
+                </button>
+
+                <!-- Modal 2 Content-->
+                <div id="myModal2" class="modal">
+                  <!-- Modal content -->
+                  <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h3><span>Madurez Espiritual</span></h3>
+                    <p>Efesios 4:13 Reina Valera Contemporánea (RVC)</p>
+                    <p></p>
+                    <p>
+                      13 hasta que todos lleguemos a la unidad de la fe y del
+                      conocimiento del Hijo de Dios, a un varón perfecto, a la
+                      medida de la estatura de la plenitud de Cristo;
+                    </p>
+                    <a
+                      href="https://www.biblegateway.com/passage/?search=Ephesians+4%3A13&version=RVC"
+                      target="_blank"
+                      >Leer mas...</a
+                    >
+                    <hr />
+                    <p>2 Pedro 3:18 Reina Valera Contemporánea (RVC)</p>
+                    <p>
+                      18 Antes bien, creced en la gracia y el conocimiento de
+                      nuestro Señor y Salvador Jesucristo. A él sea gloria ahora
+                      y hasta el día de la eternidad. Amén.
+                    </p>
+                    <a
+                      href="https://www.biblegateway.com/passage/?search=2+pedro+3%3A18&version=RVC"
+                      target="_blank"
+                      >Leer mas...</a
+                    >
+                  </div>
+                </div>
+                <!-- End Modal 2-->
               </div>
             </div>
           </div>
+
           <div class="col-md-3">
             <div class="team-box">
               <img
-                src="assets/img/who/Galatas5.22.jpg"
+                src="assets/img/who/Galatas5-22.jpg"
                 alt=""
                 class="img-responsive"
               />
@@ -169,27 +274,43 @@
                 <h5>
                   <strong>Ver y disfrutar el fruto <br />del Espiritu</strong>
                 </h5>
-                <p>
-                  Gálatas 5:22-23
-                </p>
-                <ul class="social-profile">
-                  <li>
-                    <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="fa fa-dribbble fa-lg"></i></a>
-                  </li>
-                </ul>
+                <p>Gálatas 5:22-23<br />...</p>
+                <!-- Start Modal 3 -->
+                <button class="modal-button btn btn-info" href="#myModal3">
+                  Lea mas...
+                </button>
+
+                <!-- Modal 3 Content-->
+                <div id="myModal3" class="modal">
+                  <!-- Modal content -->
+                  <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h3>
+                      <span>Ver y disfrutar el fruto <br />del Espiritu</span>
+                    </h3>
+                    <p>Gálatas 5:22-23 Reina Valera Contemporánea (RVC)</p>
+                    <p></p>
+                    <p>
+                      22 Pero el fruto del Espíritu es amor, gozo, paz,
+                      paciencia, benignidad, bondad, fe, 23 mansedumbre,
+                      templanza. Contra tales cosas no hay ley.
+                    </p>
+                    <a
+                      href="https://www.biblegateway.com/passage/?search=Galatians+5%3A22-23&version=RVC"
+                      target="_blank"
+                      >Leer mas...</a
+                    >
+                  </div>
+                </div>
+                <!-- End Modal 3-->
               </div>
             </div>
           </div>
+
           <div class="col-md-3">
             <div class="team-box">
               <img
-                src="assets/img/who/2Cor3.17.jpg"
+                src="assets/img/who/2Cor3-17.jpg"
                 alt=""
                 class="img-responsive"
               />
@@ -197,35 +318,114 @@
                 <h5>
                   <strong>Experimentar la libertad <br />en Cristo</strong>
                 </h5>
-                <p>
-                  2 Cor. 3:17, Gal. 5:1, 13
-                </p>
-                <ul class="social-profile">
-                  <li>
-                    <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="fa fa-dribbble fa-lg"></i></a>
-                  </li>
-                </ul>
+                <p>2 Corintios 3:17<br />Galatas 5:1, 13</p>
+                <!-- Start Modal 4 -->
+                <button class="modal-button btn btn-info" href="#myModal4">
+                  Lea mas...
+                </button>
+                <!-- Modal 3 Content-->
+                <div id="myModal4" class="modal">
+                  <!-- Modal content -->
+                  <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h3>
+                      <span>Experimentar la libertad <br />en Cristo</span>
+                    </h3>
+                    <p>2 Corintios 3:17 Reina Valera Contemporánea (RVC)</p>
+                    <p>
+                      17 Porque el Señor es el Espíritu; y donde está el
+                      Espíritu del Señor, allí hay libertad.
+                    </p>
+                    <a
+                      href="https://www.biblegateway.com/passage/?search=2+Corinthians+3%3A17&version=RVC"
+                      target="_blank"
+                      >Leer mas...</a
+                    >
+                    <hr />
+                    <p>Gálatas 5:1 Reina Valera Contemporánea (RVC)</p>
+                    <p>
+                      5 Manténganse, pues, firmes en la libertad con que Cristo
+                      nos hizo libres, y no se sometan otra vez al yugo de la
+                      esclavitud.
+                    </p>
+                    <a
+                      href="https://www.biblegateway.com/passage/?search=Galatians+5%3A1&version=RVC"
+                      target="_blank"
+                      >Leer mas...</a
+                    >
+                    <hr />
+                    <p>Gálatas 5:13 Reina Valera Contemporánea (RVC)</p>
+                    <p>
+                      5 Manténganse, pues, firmes en la libertad con que Cristo
+                      nos hizo libres, y no se sometan otra vez al yugo de la
+                      esclavitud.
+                    </p>
+                    <a
+                      href="https://www.biblegateway.com/passage/?search=Galatians+5%3A13&version=RVC"
+                      target="_blank"
+                      >Leer mas...</a
+                    >
+                  </div>
+                </div>
+                <!-- End Modal 4-->
               </div>
             </div>
           </div>
         </div>
 
+        <script>
+          // Get the button that opens the modal
+          var btn = document.querySelectorAll('button.modal-button');
+
+          // All page modals
+          var modals = document.querySelectorAll('.modal');
+
+          // Get the <span> element that closes the modal
+          var spans = document.getElementsByClassName('close');
+
+          // When the user clicks the button, open the modal
+          for (var i = 0; i < btn.length; i++) {
+            btn[i].onclick = function(e) {
+              e.preventDefault();
+              modal = document.querySelector(e.target.getAttribute('href'));
+              modal.style.display = 'block';
+            };
+          }
+
+          // When the user clicks on <span> (x), close the modal
+          for (var i = 0; i < spans.length; i++) {
+            spans[i].onclick = function() {
+              for (var index in modals) {
+                if (typeof modals[index].style !== 'undefined')
+                  modals[index].style.display = 'none';
+              }
+            };
+          }
+
+          // When the user clicks anywhere outside of the modal, close it
+          window.onclick = function(event) {
+            if (event.target.classList.contains('modal')) {
+              for (var index in modals) {
+                if (typeof modals[index].style !== 'undefined')
+                  modals[index].style.display = 'none';
+              }
+            }
+          };
+        </script>
+
+        <!-- END OF ALL MODALS -->
+
         <div class="heading">
-          <h5>
+          <h4>
             <a href="assets/pdf/Sobre_Nosotros.pdf" target="_blank"
-              >Haga clic aqui para leer mas sobre nuestra iglesia</a
+              >Haga clic aquí para leer más sobre nuestra iglesia</a
             >
-          </h5>
+          </h4>
         </div>
       </div>
     </section>
     <!-- end section about -->
+
     <!-- section works -->
     <section id="works" class="section gray">
       <div class="container">
@@ -236,9 +436,10 @@
             </div>
             <div class="sub-heading">
               <p>
-                "Porque somos hechura suya, creados en Cristo Jesús para buenas
-                obras, las cuales Dios preparó de antemano para que anduviésemos
-                en ellas." Efesios 2:9-11 (RVR1960)
+                "Nosotros somos hechura suya; hemos sido creados en Cristo Jesús
+                para realizar buenas obras, las cuales Dios preparó de antemano
+                para que vivamos de acuerdo con ellas." <br />
+                Efesios 2:10 (RVC)
               </p>
             </div>
           </div>
@@ -252,11 +453,11 @@
                   data-fancybox-group="gallery"
                   title=""
                   href="assets/img/portfolio/hombres.jpg"
-                  ><a href="#">mas informacion...</a>
+                >
                   <img
                     src="assets/img/portfolio/hombres.jpg"
                     alt="Hombres cristianos que tienen una comunión íntima con Dios, que se esmeran por ser buenos esposos y padres, que están comprometidos con su iglesia y su misión. Que ayudan a otros hombres a vivir esa misma experiencia, cultivando una amistad sincera entre ellos."
-                  /><a href="#">mas informacion...</a>
+                  />
                 </a>
               </li>
               <li>
@@ -549,6 +750,7 @@
     </footer>
     <a href="#" class="scrollup"><i class="fa fa-angle-up fa-2x"></i></a>
     <!-- javascript -->
+    <script src="js/jquery-3.3.1.min.js"></script>
     <script src="assets/js/jquery-1.9.1.min.js"></script>
     <script src="assets/js/jquery.easing.js"></script>
     <script src="assets/js/classie.js"></script>
@@ -589,5 +791,24 @@
 
     <script src="assets/js/custom.js"></script>
     <script src="contactform/contactform.js"></script>
+    <script src="build/mediaelement-and-player.min.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+                var mediaElements = document.querySelectorAll('video, audio'), total = mediaElements.length;
+
+                for (var i = 0; i < total; i++) {
+                    new MediaElementPlayer(mediaElements[i], {
+                        pluginPath: 'https://cdn.jsdelivr.net/npm/mediaelement@4.2.7/build/',
+                        shimScriptAccess: 'always',
+                        success: function () {
+                            var target = document.body.querySelectorAll('.player'), targetTotal = target.length;
+                            for (var j = 0; j < targetTotal; j++) {
+                                target[j].style.visibility = 'visible';
+                            }
+                  }
+                });
+                }
+            });
+    </script>
   </body>
 </html>
