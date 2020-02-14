@@ -20,8 +20,11 @@
 
 /* ==== sermon audio section - NO CSS==== */
 
-/* ==== END sermon audio section ==== */
+.playerbg {
+  background-image: url(/assets/img/portfolio/playerbg.jpg);
+}
 
+/* General text formatting */
 .lowercase {
   text-transform: lowercase;
 }
