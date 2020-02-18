@@ -1,0 +1,164 @@
+<link rel="stylesheet" href="/assets/css/bootstrap.css">
+<div>
+  <div>
+
+    <p class="text-center sub-heading">
+          Dios provee para el ministerio de Iglesia Hispana Dios es Amor a
+          través de sus diezmos y ofrendas. Honramos sus contribuciones con una
+          administración fiel, prácticas éticas y una responsabilidad total para
+          que la integridad financiera de nuestra iglesia permanezca más allá de
+          cualquier reproche.
+    </p>
+
+    <p class="text-center sub-heading">
+      Si tiene alguna pregunta, favor de llamar al 803-000-0000 o escribir a
+          <a href="mailto:email@mail.com?subject=Finanzas"
+          >idhea@mail.com</a
+        >
+    </p>
+  </div>
+  <div class="text-center">
+    <table class="text-center" style="margin: auto;">
+      <tbody>
+        <tr>
+          <td style="text-align:left;"><label>Ofrenda</label></td>
+          <td>
+            $
+            <input
+              type="text"
+              name="amount4535"
+              class="amount"
+              value="0.00"
+              style="width:50px;"
+            /><input
+              type="hidden"
+              id="catName0"
+              name="catName0"
+              value="Ofrenda"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td style="text-align:left;"><label>Diezmo</label></td>
+          <td>
+            $
+            <input
+              type="text"
+              name="amount4925"
+              class="amount"
+              value="0.00"
+              style="width:50px;"
+            /><input
+              type="hidden"
+              id="catName1"
+              name="catName1"
+              value="Diezmo"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td style="text-align:left;"><label>Pro Templo</label></td>
+          <td>
+            $
+            <input
+              type="text"
+              name="amount5335"
+              class="amount"
+              value="0.00"
+              style="width:50px;"
+            /><input
+              type="hidden"
+              id="catName2"
+              name="catName2"
+              value="Pro Templo"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td style="text-align:left;">
+            <label>Ministerio de Niños y Jóvenes</label>
+          </td>
+          <td>
+            $
+            <input
+              type="text"
+              name="amount4926"
+              class="amount"
+              value="0.00"
+              style="width:50px;"
+            /><input
+              type="hidden"
+              id="catName3"
+              name="catName3"
+              value="Ministerio de Niños y Jóvenes"
+            />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="text-center">
+      <label for="donateFrequency">Frecuencia de Donacion</label><br /><select
+        name="donateFrequency"
+        id="donateFrequency"
+        ><option value="1">Una Vez</option
+        ><option value="2">Semanal</option
+        ><option value="3">Mensual</option
+        ><option value="4">Anual</option></select
+      >
+    </div>
+    <div class="text-center">
+      <label for="donateNotes">Nota</label>
+      <span id="keyChar">(200 Characters Max)</span><br /><textarea
+        name="donateNotes"
+        id="donateNotes"
+        style="width:180px; height:50px;"
+      ></textarea>
+    </div>
+
+    <div class="clear moduleBorder mb15 centerBox">
+      <div class="moduleHeader">
+        Total
+      </div>
+      <div class="moduleBody center">
+        <h2 id="orderTotal">$0.00</h2>
+        <input type="hidden" name="orderTotal" value="0" />
+      </div>
+    </div>
+    <div>
+      <form
+        id="paypalForm"
+        action="https://www.paypal.com/cgi-bin/webscr"
+        method="post"
+      >
+        <input type="hidden" name="charset" value="utf-8" /><input
+          type="hidden"
+          name="cmd"
+          id="xClick"
+          value="_xclick"
+        /><input
+          type="hidden"
+          name="business"
+          value="ihdea@mail.com"
+        /><input
+          type="hidden"
+          name="item_name"
+          value="Donation to Iglesia Hispana Dios es Amor"
+        /><input type="hidden" name="no_shipping" value="2" /><input
+          type="hidden"
+          name="no_note"
+          value="0"
+        /><input type="hidden" name="currency_code" value="USD" /><input
+          type="hidden"
+          name="tax"
+          value="0"
+        /><input type="hidden" name="lc" value="US" /><input
+          type="hidden"
+          name="return"
+          value="http://www.ihdea.com/donation_complete"
+        />
+        <div id="donateVars"></div>
+        <input class="mt10 actBtn" type="submit" value="Proceda a Donar" />
+      </form>
+    </div>
+  </div>
+</div>
