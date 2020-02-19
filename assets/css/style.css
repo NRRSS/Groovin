@@ -417,6 +417,7 @@ section#intro {
   position: relative;
   left: -50%;
   font-size: 48px;
+  font-weight: 600;
   color: #fff;
   line-height: 1.1em;
 }
