@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <title>IHDEA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+
+    <!-- styles -->
+    <link rel="stylesheet" href="assets/css/fancybox/jquery.fancybox.css" />
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <link href="assets/css/bootstrap-theme.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/slippry.css" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/video.css">
+    <link rel="stylesheet" href="assets/color/default.css" />
+    <link href="assets/css/rotating-card.css" rel="stylesheet" />
+    <link rel="stylesheet" href="build/mediaelementplayer.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mediaelement@4.2.7/build/mediaelementplayer.min.css">
+
+        <!-- Magnific-popup -->
+        <link rel="stylesheet" href="assets/js/popup-iframe-video.js" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
+        />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <!-- =======================================================
+    Theme Name: Groovin
+    Theme URL: https://bootstrapmade.com/groovin-free-bootstrap-theme/
+    Author: BootstrapMade
+    Author URL: https://bootstrapmade.com
+  ======================================================= -->
+    <script src="assets/js/modernizr.custom.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <div
+        id="navigation"
+        class="navbar navbar-inverse navbar-fixed-top default"
+        role="navigation"
+      >
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button
+              type="button"
+              class="navbar-toggle"
+              data-toggle="collapse"
+              data-target="#bs-example-navbar-collapse-1"
+            >
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html#intro">IHDEA</a>
+            <img src="assets/img/logo-sm1.png" height="60" alt="" />
+          </div>
+
+          <div class="navigation">
+            <div
+              class="collapse navbar-collapse"
+              id="bs-example-navbar-collapse-1"
+            >
+              <nav>
+                <ul class="nav navbar-nav navbar-right">
+                  <li class="current"><a href="#intro">Inicio</a></li>
+                  <li><a href="#sermon">Mensaje</a></li>
+                  <li><a href="#about">Quienes Somos</a></li>
+                  <li><a href="#works">Ministerios</a></li>
+                  <li><a href="#contact">Contáctenos</a></li>
+                  <li><a href="donate.html">Diezmos y Ofrendas</a></li>
+                </ul>
+              </nav>
+            </div>
+            <!-- /.navbar-collapse -->
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- section intro -->
+    <section id="intro" >
+      <ul id="slippry-slider">
+        <li>
+          <a href="#slide1"
+            ><img
+              src="assets/img/slide/1b.jpg"
+              alt="Iglesia Hispana Dios es Amor"
+          /></a>
+        </li>
+        <li>
+          <a href="#slide2"
+            ><img src="assets/img/slide/5b.jpg" alt="Bienvenidos Todos!"
+          /></a>
+        </li>
+        <li>
+          <a href="#slide3"
+            ><img
+              src="assets/img/slide/3b.jpg"
+              alt="a la Casa del Señor ♥<br><span id='img1'>¡Nuestra iglesia continua viva, unida y activa!</span>"
+          /></a>
+        </li>
+      </ul>
+    </section>
+    <!-- end intro -->
+
+    <!--- sermon audio -->
+    <section name="sermon" id="sermon" class="section gray">
+      <div class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <div class="heading">
+              <h3>Edifíquese</h3>
+            </div>
+            <div class="sub-heading">
+              <hr>
+              <p>
+              Es nuestro deseo que este mensaje le sea de mucha bendición y edificación para su vida.<br>
+              &mdash;
+              <span style="font-size: medium;"><em>Pastor Samuel Hernández</em></span>
+            </p>
+          </div>  
+          </div>
+        </div>
+
+        <div class="row" >
+          <div class="col-12 text-center" style="background-color: rgb(233, 233, 233); padding-top: 1em; padding-bottom: 1em;"  >
+            <h5><span class="uppercase" style="font-size: xx-large;"
+                >&ldquo;Descanso&rdquo;</span><br>
+              <span style="font-size: small;"><em>Mensaje del 05/10/2020</em></span>
+            </h5>
+          
+          <div class="col-12 text-center">
+           
+            <!-- Start Video -->
+            <div>
+              <a href="#videostory" id="videolink" style="font-size: large;"
+                ><span style="font-size: large; font-weight:600;"><i class="far fa-play-circle" aria-hidden="true"></i>&nbsp; Vea el Video</span>
+              </a>
+              <div id="videostory" class="mfp-hide">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/-zMEQ8u4l-4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>          </div>
+              </div>
+              <script>
+                $('#videolink').magnificPopup({
+                  type: 'inline',
+                  midClick: true
+                });
+              </script>
+            </div></div>
+            <!-- End Video -->
+
+
+            <!-- commented out
+              <div class="player text-center">
+              <audio id="player2" preload="none" controls
+                style="max-width: 100%"
+              >
+                <source
+                  src="http://ihdea.org/Media/cultos/2020/2020-03-15_La_Carne_y_el_Ministerio.mp3"
+                  type="audio/mp3"
+                />
+              </audio>
+            </div>-->
+      
+            <div class="heading">
+              <h5>
+                <a href="mensajes.html"
+                  >Haga clic aquí para escuchar mensajes previos</a
+                >
+              </h5>
+              <hr>
+            </div> 
+           
+            <!-- start Hours section-->
+<div class="container" style="background-color: rgb(218, 184, 184);">
+  <div>
+    <div>
+      <h4 class="text-center">Servicios</h4>
+    </div>
+    <div class="sub-heading">
+      <p  style="font-size: 16px; font-weight: 500;">Durante este tiempo de pandemia por el Coronavirus, nuestro edificio estará cerrado, pero nuestra iglesia continua viva, unida y activa<br>
+       <i class="far fa-phone-laptop"></i> <a href="http://www.ihdea.org" style="color: indigo;">www.ihdea.org</a><br>
+       <i class="fab fa-facebook-square"></i> <a href="https://www.facebook.com/IglesiaHispanaDiosEsAmor/" target="blank" style="color: indigo;">Facebook</a><br>
+       <i class="fab fa-youtube-square"></i> <a href="https://www.youtube.com/channel/UCTM_BsrdfQB1Z58pFoEftmA" target="blank" style="color: indigo;">YouTube</a></p>
+      <p class="text-center">Estudio Bíblico:&nbsp;&nbsp;Domingos - 10:10am<br/>
+      Servicio de Adoración:&nbsp;&nbsp;Domingos - 11:10am</p>
+    </div>
+  </div>
+</div>
+<!-- end Hours section-->
+          </div>
+        </div>
+      
+      </div>
+      </div>
+    </section>
+    <!-- end sermon audio -->
+
+
+    <!-- Section about -->
+    <section id="about" class="section gray">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <div class="heading">
+              <h3><span>Quienes Somos</span></h3>
+            </div>
+            <div class="sub-heading">
+              <p>
+                Nuestras Creencias
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="team-box">
+              <img
+                src="assets/img/who/Romanos8-28.jpg"
+                alt=""
+                class="img-responsive aligncenter"
+              />
+              <div class="roles">
+                <h5>
+                  <strong
+                    >Crecer a la<br />
+                    imagen de Cristo</strong
+                  >
+                </h5>
+                <p>Romanos 8:28-29<br />...</p>
+
+                <!-- Start Modal1 -->
+                <button class="modal-button btn btn-info" href="#myModal1">
+                  Lea mas...
+                </button>
+
+                <!-- Modal 1 Content-->
+                <div id="myModal1" class="modal">
+                  <!-- Modal content -->
+                  <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h3>Crecer a la Imagen de Cristo</h3>
+                    <p>Romanos 8:28-29 (RVC)</p>
+                    <p></p>
+                    <p>
+                      Y sabemos que a los que aman a Dios, todas las cosas
+                      les ayudan a bien, esto es, a los que conforme a su
+                      propósito son llamados.
+                      <br />
+                      Porque a los que antes conoció, también los predestinó
+                      para que fuesen hechos conformes a la imagen de su Hijo,
+                      para que él sea el primogénito entre muchos hermanos.
+                    </p>
+                    <a
+                      href="https://www.biblegateway.com/passage/?search=Romans+8%3A28&version=RVC"
+                      target="_blank"
+                      >Leer mas...</a
+                    >
+                  </div>
+                </div>
+
+                <!-- End Modal1 -->
+              </div>
+            </div>
+          </div> 
+
+          <div class="col-md-3">
+            <div class="team-box">
+              <img
+                src="assets/img/who/2Pedro3-18.jpg"
+                alt=""
+                class="img-responsive aligncenter"
+              />
+              <div class="roles">
+                <h5>
+                  <strong>Obtener la <br />Madurez espiritual</strong>
+                </h5>
+                <p>Efesios 4:13<br />2 Pedro 3:18</p>
+
+                <!-- Start Modal 2 -->
+                <button class="modal-button btn btn-info" href="#myModal2">
+                  Lea mas...
+                </button>
+
+                <!-- Modal 2 Content-->
+                <div id="myModal2" class="modal">
+                  <!-- Modal content -->
+                  <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h3><span>Madurez Espiritual</span></h3>
+                    <p>Efesios 4:13 (RVC)</p>
+                    <p></p>
+                    <p>
+                      hasta que todos lleguemos a la unidad de la fe y del
+                      conocimiento del Hijo de Dios, a un varón perfecto, a la
+                      medida de la estatura de la plenitud de Cristo;
+                    </p>
+                    <a
+                      href="https://www.biblegateway.com/passage/?search=Ephesians+4%3A13&version=RVC"
+                      target="_blank"
+                      >Leer mas...</a
+                    >
+                    <hr />
+                    <p>2 Pedro 3:18 (RVC)</p>
+                    <p>
+                      Antes bien, creced en la gracia y el conocimiento de
+                      nuestro Señor y Salvador Jesucristo. A él sea gloria ahora
+                      y hasta el día de la eternidad. Amén.
+                    </p>
+                    <a
+                      href="https://www.biblegateway.com/passage/?search=2+pedro+3%3A18&version=RVC"
+                      target="_blank"
+                      >Leer mas...</a
+                    >
+                  </div>
+                </div>
+                <!-- End Modal 2-->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="team-box">
+              <img
+                src="assets/img/who/Galatas5-22.jpg"
+                alt=""
+                class="img-responsive aligncenter"
+              />
+              <div class="roles">
+                <h5>
+                  <strong>Ver y disfrutar el fruto <br />del Espiritu</strong>
+                </h5>
+                <p>Gálatas 5:22-23<br />...</p>
+                <!-- Start Modal 3 -->
+                <button class="modal-button btn btn-info" href="#myModal3">
+                  Lea mas...
+                </button>
+
+                <!-- Modal 3 Content-->
+                <div id="myModal3" class="modal">
+                  <!-- Modal content -->
+                  <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h3>
+                      <span>Ver y disfrutar el fruto <br />del Espiritu</span>
+                    </h3>
+                    <p>Gálatas 5:22-23 (RVC)</p>
+                    <p></p>
+                    <p>
+                      Pero el fruto del Espíritu es amor, gozo, paz,
+                      paciencia, benignidad, bondad, fe, 23 mansedumbre,
+                      templanza. Contra tales cosas no hay ley.
+                    </p>
+                    <a
+                      href="https://www.biblegateway.com/passage/?search=Galatians+5%3A22-23&version=RVC"
+                      target="_blank"
+                      >Leer mas...</a
+                    >
+                  </div>
+                </div>
+                <!-- End Modal 3-->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="team-box">
+              <img
+                src="assets/img/who/2Cor3-17.jpg"
+                alt=""
+                class="img-responsive aligncenter"
+              />
+              <div class="roles">
+                <h5>
+                  <strong>Experimentar la libertad <br />en Cristo</strong>
+                </h5>
+                <p>2 Corintios 3:17<br />Galatas 5:1, 13</p>
+                <!-- Start Modal 4 -->
+                <button class="modal-button btn btn-info" href="#myModal4">
+                  Lea mas...
+                </button>
+                <!-- Modal 3 Content-->
+                <div id="myModal4" class="modal">
+                  <!-- Modal content -->
+                  <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h3>
+                      <span>Experimentar la libertad <br />en Cristo</span>
+                    </h3>
+                    <p>2 Corintios 3:17 (RVC)</p>
+                    <p>
+                      Porque el Señor es el Espíritu; y donde está el
+                      Espíritu del Señor, allí hay libertad.
+                    </p>
+                    <a
+                      href="https://www.biblegateway.com/passage/?search=2+Corinthians+3%3A17&version=RVC"
+                      target="_blank"
+                      >Leer mas...</a
+                    >
+                    <hr />
+                    <p>Gálatas 5:13 (RVC)</p>
+                    <p>
+                      Hermanos, ustedes han sido llamados a la libertad, sólo que no usen la libertad como pretexto para pecar; más bien, sírvanse los unos a los otros por amor.
+                    </p>
+                    <a
+                      href="https://www.biblegateway.com/passage/?search=Galatians+5%3A13&version=RVC"
+                      target="_blank"
+                      >Leer mas...</a
+                    >
+                  </div>
+                </div>
+                <!-- End Modal 4-->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <script>
+          // Get the button that opens the modal
+          var btn = document.querySelectorAll('button.modal-button');
+
+          // All page modals
+          var modals = document.querySelectorAll('.modal');
+
+          // Get the <span> element that closes the modal
+          var spans = document.getElementsByClassName('close');
+
+          // When the user clicks the button, open the modal
+          for (var i = 0; i < btn.length; i++) {
+            btn[i].onclick = function(e) {
+              e.preventDefault();
+              modal = document.querySelector(e.target.getAttribute('href'));
+              modal.style.display = 'block';
+            };
+          }
+
+          // When the user clicks on <span> (x), close the modal
+          for (var i = 0; i < spans.length; i++) {
+            spans[i].onclick = function() {
+              for (var index in modals) {
+                if (typeof modals[index].style !== 'undefined')
+                  modals[index].style.display = 'none';
+              }
+            };
+          }
+
+          // When the user clicks anywhere outside of the modal, close it
+          window.onclick = function(event) {
+            if (event.target.classList.contains('modal')) {
+              for (var index in modals) {
+                if (typeof modals[index].style !== 'undefined')
+                  modals[index].style.display = 'none';
+              }
+            }
+          };
+        </script>
+
+        <!-- END OF ALL MODALS -->
+        
+
+        <div class="heading">
+          <h4>
+            <a href="assets/pdf/Sobre_Nosotros.pdf" target="_blank"
+              >Haga clic aquí para leer más sobre nuestra iglesia</a
+            >
+          </h4>
+        </div>
+      </div>
+    </section>
+    -->
+
+    <!-- Section NEW ministries -->
+    <section id="works" class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+              <div class="heading">
+                <h3><span>Ministerios</span></h3>
+              </div>
+              <div class="sub-heading">
+                <p>
+                  "Nosotros somos hechura suya; hemos sido creados en Cristo Jesús para realizar buenas obras, 
+                  las cuales Dios preparó de antemano para que vivamos de acuerdo con ellas."
+                  Efesios 2:10 (RVC)
+                </p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="row">
+           
+          <!--  Start Hombres-->
+            <div class="col-md-3">
+              <div class="team-box">
+                <img
+                  src="assets/img/min/hombres.jpg"
+                  alt=""
+                  class="img-responsive aligncenter"
+                />
+                <div class="roles">
+                  <h5>
+                    <strong
+                      >Hombres de Dios</strong
+                    >
+                  </h5>
+                  <p style="padding: 6px;">
+                    El Señor afirma los pasos del 
+                    hombre cuando le agrada su modo de vivir...
+                    <p class="text-center">Salmos 37:23 (NVI)</p>
+  
+                  <!-- Start Modal1 -->
+                  <button class="modal-button btn btn-info" href="#myModal1">
+                    Lea mas...
+                  </button>
+  
+                  <!-- Modal 1 Content-->
+                  <div id="myModal1" class="modal">
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                      <span class="close">&times;</span>
+                      <h3>Hombres de Dios</h3>
+                      <p class="text-center">
+                        Compartimos una comunión íntima con Dios, esmerándonos por ser buenos esposos y padres, 
+                        comprometidos con nuestra iglesia y su misión.  Ayudamos a otros hombres a vivir esa misma 
+                        experiencia, cultivando una amistad sincera entre todos.
+                      </p>
+                      <p class="text-center">
+                        Venga y sea parte de nuestro grupo<br />
+                        
+                      </p>
+  
+                    </div>
+                  </div>
+  
+                  <!-- End Modal1 -->
+                </div>
+              </div>
+            </div>
+          <!--  End Hombres -->
+  
+  
+          <!--  Start Mujeres -->
+            <div class="col-md-3">
+              <div class="team-box">
+                <img
+                  src="assets/img/min/mujeres.jpg"
+                  alt=""
+                  class="img-responsive aligncenter"
+                />
+                <div class="roles">
+                  <h5>
+                    <strong>Damas Dios es Amor</strong>
+                  </h5>
+                  <p style="padding: 6px;">
+                    Mujer ejemplar, ¿dónde se hallará? ¡Es más valiosa que
+                    las piedras preciosas!
+                  </p>
+                  <p class="text-center">Proverbios 31:10 (NVI)</p>
+  
+                  <!-- Start Modal 2 -->
+                  <button class="modal-button btn btn-info" href="#myModal2">
+                    Lea mas...
+                  </button>
+  
+                  <!-- Modal 2 Content-->
+                  <div id="myModal2" class="modal">
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                      <span class="close">&times;</span>
+                      <h3><span>Damas Dios es Amor</span></h3>
+                      <p class="text-center">
+                        Participamos en la construcción de una fe común con fuertes lazos interpersonales con el compromiso de edificar a otras mujeres a través del Discipulado y del estudio de la Palabra de Dios.
+                      </p>
+                      <p class="text-center">...</p>
+                      <p class="text-center">
+                        Comparta con nosotras en Facebook<br />
+                        <a
+                        href="https://www.facebook.com/groups/1893004684269145/"
+                        target="blank"
+                        class="facebook"
+                        ><i class="fa fa-facebook fa-fw"></i
+                      ></a>
+                      </p>
+                      
+                    </div>
+                  </div>
+                  <!-- End Modal 2-->
+                </div>
+              </div>
+            </div>
+          <!--  End Mujeres-->
+  
+          <!--  Start Jovenes-->
+            <div class="col-md-3">
+              <div class="team-box">
+                <img
+                  src="assets/img/min/jovenes.jpg"
+                  alt=""
+                  class="img-responsive aligncenter"
+                />
+                <div class="roles">
+                  <h5>
+                    <strong>Juventud para Cristo</strong>
+                  </h5>
+                  <p class="text-center"  style="padding: 6px;">
+                    ¿Cómo puede el joven llevar una vida íntegra?
+                    Viviendo conforme a tu palabra.
+                  </p>
+                  <p class="text-center">Salmos 119:9 (NVI)</p>
+                  <!-- Start Modal 3 -->
+                  <button class="modal-button btn btn-info" href="#myModal3">
+                    Lea mas...
+                  </button>
+  
+                  <!-- Modal 3 Content-->
+                  <div id="myModal3" class="modal">
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                      <span class="close">&times;</span>
+                      <h3>
+                        <span>Juventud para Cristo</span>
+                      </h3>
+                      <p>Descripion para grupo de jovenes</p>
+   
+                      <a
+                        href="https://www.biblegateway.com/passage/?search=Galatians+5%3A22-23&version=RVC"
+                        target="_blank"
+                        >Leer mas...</a
+                      >
+                    </div>
+                  </div>
+                  <!-- End Modal 3-->
+                </div>
+              </div>
+            </div>
+          <!--  End Jovenes -->
+  
+          <!--  Start Ninos -->
+            <div class="col-md-3">
+              <div class="team-box">
+                <img
+                  src="assets/img/min/ninos.jpg"
+                  alt=""
+                  class="img-responsive aligncenter"
+                />
+                <div class="roles">
+                  <h5>
+                    <strong>Nuestros Niños</strong>
+                  </h5>
+                  <p  style="padding: 6px;">Instruye al niño en su camino, Y aun cuando fuere viejo no se apartará de él.</p>
+                  <p>Proverbios 22:6</p>
+                  <!-- Start Modal 4 -->
+                  <button class="modal-button btn btn-info" href="#myModal4">
+                    Lea mas...
+                  </button>
+                  <!-- Modal 3 Content-->
+                  <div id="myModal4" class="modal">
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                      <span class="close">&times;</span>
+                      <h3>
+                        <span>Nuestros Niños</span>
+                      </h3>
+                      <p>Mateo 19:14 (NVI)</p>
+                      <p>
+                        "Pero Jesús dijo: Dejad a los niños venir a mí, y no se lo impidáis; 
+                        porque de los tales es el reino de los cielos."
+                      </p>
+                      <p>Los niños se reunen con adultos en grupos por edad para ser instruidos escuchando 
+                        historias de la biblia y alabando a Dios por medio de canciones.</p>
+                      <hr>
+                      <p>
+                        Visite <a href="http://www.saddlebackkids.com/" target="blank">Saddleback Kids</a> 
+                        con sus niños para ver divertidos videos, actividades, historias bíblicas y más.
+                      </p>
+                      
+                    </div>
+                  </div>
+                  <!-- End Modal 4-->
+                </div>
+              </div>
+            </div>
+          <!--  End Ninos -->  
+          </div>
+  
+          <script>
+            // Get the button that opens the modal
+            var btn = document.querySelectorAll('button.modal-button');
+  
+            // All page modals
+            var modals = document.querySelectorAll('.modal');
+  
+            // Get the <span> element that closes the modal
+            var spans = document.getElementsByClassName('close');
+  
+            // When the user clicks the button, open the modal
+            for (var i = 0; i < btn.length; i++) {
+              btn[i].onclick = function(e) {
+                e.preventDefault();
+                modal = document.querySelector(e.target.getAttribute('href'));
+                modal.style.display = 'block';
+              };
+            }
+  
+            // When the user clicks on <span> (x), close the modal
+            for (var i = 0; i < spans.length; i++) {
+              spans[i].onclick = function() {
+                for (var index in modals) {
+                  if (typeof modals[index].style !== 'undefined')
+                    modals[index].style.display = 'none';
+                }
+              };
+            }
+  
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+              if (event.target.classList.contains('modal')) {
+                for (var index in modals) {
+                  if (typeof modals[index].style !== 'undefined')
+                    modals[index].style.display = 'none';
+                }
+              }
+            };
+          </script>
+  
+          <!-- END OF ALL MODALS -->
+  
+         </div>
+      </section>
+      <!-- end new minitries about -->
+
+
+    <!-- section contact -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <div class="heading">
+              <h3><span>Contáctenos</span></h3>
+            </div>
+            <div class="sub-heading">
+              <p>
+                El principio de la sabiduría es el temor del Señor;
+                el conocimiento de lo santo es inteligencia. <br>Proverbios 9:10 (RVC)
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h4><i class="icon-envelope"></i><strong>Contacto</strong></h4>
+            <p>
+              ¿Necesita informacion sobre nuestra iglesia? ¿Tiene una petición de oración? 
+              ¡Póngase en contacto con nosotros!
+
+            </p>
+            <!-- start contact form -->
+            <div class="cform" id="contact-form">
+              <div id="sendmessage">Su mensaje ha sido enviado.  ¡Gracias!</div>
+              <div id="errormessage"></div>
+              <form action="" method="post" role="form" class="contactForm">
+                <div class="form-group">
+                  <input
+                    type="text"
+                    name="name"
+                    class="form-control"
+                    id="name"
+                    placeholder="Nombre"
+                    data-rule="minlen:4"
+                    data-msg="Please enter at least 4 chars"
+                  />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <input
+                    type="email"
+                    class="form-control"
+                    name="email"
+                    id="email"
+                    placeholder="Email"
+                    data-rule="email"
+                    data-msg="Please enter a valid email"
+                  />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="subject"
+                    id="subject"
+                    placeholder="Pedido"
+                    data-rule="minlen:4"
+                    data-msg="Please enter at least 8 chars of subject"
+                  />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <textarea
+                    class="form-control"
+                    name="message"
+                    rows="5"
+                    data-rule="required"
+                    data-msg="Please write something for us"
+                    placeholder="Mensaje"
+                  ></textarea>
+                  <div class="validation"></div>
+                </div>
+
+                <div class="text-center">
+                  <button type="submit" class="btn btn-lg btn-theme">
+                    Envíe
+                  </button>
+                </div>
+              </form>
+            </div>
+            <!-- END contact form -->
+          </div>
+          <div class="col-md-6">
+            <h4>Visítenos</h4>
+            <p>Mapa de localización - Estamos junto a Sandy Level Baptist Church</p>
+            <!-- map -->
+            <div id="section-map" class="clearfix">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3299.3189648151933!2d-80.99155628472906!3d34.21487321658943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88561d2ce8efd31f%3A0xd533862c4f8f0bf6!2sIglesia%20Hispana%20Dios%20es%20Amor!5e0!3m2!1sen!2sus!4v1581951604313!5m2!1sen!2sus" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end section contact -->
+
+    <footer>
+      <div class="verybottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="aligncenter">
+                <ul class="social-network social-circle">
+                  <li>
+                    <a href="https://www.facebook.com/Iglesia-Hispana-Dios-es-Amor-108675084095010/" class="icoFacebook" title="Facebook" target="_blank"
+                      ><i class="fa fa-facebook"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="https://www.youtube.com/channel/UCTM_BsrdfQB1Z58pFoEftmA" class="icoYouTube" title="YouTube" target="_blank"
+                      ><i class="fa fa-youtube"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="aligncenter">
+                <p>IHDEA | Iglesia Hispana Dios es Amor® 2020</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#" class="scrollup"><i class="fa fa-angle-up fa-2x"></i></a>
+    <!-- javascript -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/jquery-1.9.1.min.js"></script>
+    <script src="assets/js/jquery.easing.js"></script>
+    <script src="assets/js/classie.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/slippry.min.js"></script>
+    <script src="assets/js/nagging-menu.js"></script>
+    <script src="assets/js/jquery.nav.js"></script>
+    <script src="assets/js/jquery.scrollTo.js"></script>
+    <script src="assets/js/jquery.fancybox.pack.js"></script>
+    <script src="assets/js/jquery.fancybox-media.js"></script>
+    <script src="assets/js/masonry.pkgd.min.js"></script>
+    <script src="assets/js/imagesloaded.js"></script>
+    <script src="assets/js/jquery.nicescroll.min.js"></script>
+    <script src="assets/js/AnimOnScroll.js"></script>
+    <script>
+      new AnimOnScroll(document.getElementById('grid'), {
+        minDuration: 0.4,
+        maxDuration: 0.7,
+        viewportFactor: 0.2
+      });
+    </script>
+    <script>
+      $(document).ready(function() {
+        $('#slippry-slider').slippry(
+          (defaults = {
+            transition: 'vertical',
+            useCSS: true,
+            speed: 5000,
+            pause: 3000,
+            initSingle: false,
+            auto: true,
+            preload: 'visible',
+            pager: false
+          })
+        );
+      });
+    </script>
+
+    <script src="assets/js/custom.js"></script>
+    <script src="contactform/contactform.js"></script>
+    <script src="build/mediaelement-and-player.min.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+                var mediaElements = document.querySelectorAll('video, audio'), total = mediaElements.length;
+
+                for (var i = 0; i < total; i++) {
+                    new MediaElementPlayer(mediaElements[i], {
+                        pluginPath: 'https://cdn.jsdelivr.net/npm/mediaelement@4.2.7/build/',
+                        shimScriptAccess: 'always',
+                        success: function () {
+                            var target = document.body.querySelectorAll('.player'), targetTotal = target.length;
+                            for (var j = 0; j < targetTotal; j++) {
+                                target[j].style.visibility = 'visible';
+                            }
+                  }
+                });
+                }
+            });
+    </script>
+    <script src="https://kit.fontawesome.com/b300fe6f01.js" crossorigin="anonymous"></script>
+  </body>
+</html>
